@@ -1,0 +1,63 @@
+body{
+	background: url("../img/bg.jpg");
+	color: white;
+	font-size: 1rem;
+
+}
+
+h1{
+	font-family: "Monotype Corsiva";
+}
+
+main{
+	width: 98vw;
+	height: 98vh;
+	position: relative;
+}
+
+
+.mainDiv{
+	width: 70%;
+	height: 550px;
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+	padding: 15px;
+	background-color: #61105e;
+	box-shadow: 0px 0px 0px 20px rgba(97, 16, 94, 0.4);
+	border-radius: 20px;
+	
+	
+}
+
+li{
+	font-size: 1.3rem;
+}
+
+input{
+	background-color: white;
+	color: #61105e;
+	border: outset #053131 2px;
+}
+
+button{
+	background-color: white;
+	color: #61105e;
+	font-size: 1.2rem;
+	padding: 10px;
+	border-radius: 10px;
+	border: solid #053131 1px;
+	cursor: pointer;
+}
+
+.numMsgBlock{
+	padding: 1px;
+	border: solid #c2f1db 2px;
+	display: none;
+	width: 15%;
+	margin: 0px auto;
+	font-size: 4rem;
+	margin-top: 20px;
+}
